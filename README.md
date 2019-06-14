@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+<head>
+<title> Cafe website </title>
+<style>
+body{
+background:white;
+margin:0;
+}
+.menu{
+width:100%;
+background:#1a1a1a;
+overflow:auto;
+}
+.menu ul{
+margin:0;
+padding:0;
+list-style:none;
+line-height:60px;
+}
+.menu li{
+float:left;
+}
+.menu ul li a{
+background:#1a1a1a;
+text-decoration:none;
+width:130px;
+display:block;
+text-align:center;
+color:#f2f2f2;
+font-size:18px;
+font-family:sans-serif;
+letter-spacing:0.5px;
+}
+.menu li a:hover {
+color:#fff;
+opacity:0.5;
+font-size:19px;
+}
+.menu ul li ul{
+position:absolute;
+top:60px;
+display:none;
+background:#1a1a1a;
+}
+.menu ul li ul li{
+float:none;
+padding:0 50px;
+}
+.menu li:hover .sub{
+display:inline;
+font-size:18px;
+font-family:sans-serif;
+}
+
+.search-form{
+margin-top:15px;
+float:right;
+margin-right:100px;
+}
+input[type=text]{
+padding:7px;
+border:none;
+font-size:16px;
+font-family:sans-serif;
+}
+button{
+float:right;
+background:orange;
+color:white;
+border-radius:0 5px 5px 0;
+cursor:pointer;
+position:relative;
+padding:7px;
+font-family:sans-serif;
+border:none;
+font-size:16px;
+}
+
+body{
+color:white
+}
+p {text-align:left;}
+p {text-indent:25pxl}
+h {}
+
+#top {
+background-image:url(barista.jpg);
+background-repeat:no-repeat;
+height:600px;
+background-position:cover;
+}
+#header1{
+color: black;
+font-size: 10px;
+margin-left:20px;
+}
+img{
+display:block;
+margin-left:60px;
+}
+#middle{
+color: black;
+}
+#text1{
+margin-left:40px;
+}
+#header2{
+color: black;
+font-size: 10px;
+position:relative;
+top:1px;
+left:600px;
+
+}
+</style>
+
+</head>
+<body>
+<div id="top">
+<nav class="menu">
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a>
+<ul class="sub">
+<li>Our History</li>
+<li>Menu</li>
+<li>Career</li>
+</ul>
+</li>
+<li><a href="#">Services</a>
+<ul class="sub">
+<li>Products</li>
+<li>Orders</li>
+</ul>
+</li>
+<li><a href="#">Prices</a></li>
+<li><a href="#">News</a></li>
+<li><a href="#">Contacts</a>
+<ul class="sub">
+<li>Coffee shops</li>
+<li>Working hours</li>
+</ul>
+</li>
+</ul>
+
+<form class="search-form">
+<input type="text" placeholder="search">
+<button>search</button>
+</form>
+</nav>
+<h1><strong>Every bean counts</strong></h1>
+<p>Our company began it's first journey in 2004 and is currently</p>
+<p>one of the top rated cafes in our country.</p>
+<p>We are wery proud of our long history and etc;</p>
+</div>
+<div id="middle">
+<header id="header1">
+<h1>finest hot chocolate, coffee and tea</h1>
+</header>
+<div class="img">
+<img src="hot_chocolate.jpg"/>
+</div>
+<div id="text1">
+<p>We serve only premium roast coffees from</p>
+<p>around the world and offer fresh coffee for </p>
+<p>each customer. We also offer a selection of loose </p>
+<p>leaf teas, everything from exotic flavors to the classics.</p>
+</div>
+<header id="header2">
+<h1>Deliciuous home making</h1>
+</header>
+<div class="img">
+<img src="hot_chocolate.jpg"/>
+</div>
+<div id="text1">
+<p>We serve only premium roast coffees from</p>
+<p>around the world and offer fresh coffee for </p>
+<p>each customer. We also offer a selection of loose </p>
+<p>leaf teas, everything from exotic flavors to the classics.</p>
+</div>
+</div>
+
+</body>
+</html>
